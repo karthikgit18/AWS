@@ -1,1 +1,12 @@
+#Architecture Flow
+
+IAM → Security Groups → RDS → EC2 → App → ALB → AMI → ASG → S3 → CloudWatch → Testing
+
+
+
+**IAM — IDENTITY AND ACCESS MANAGEMENT**
+
+- All tasks were performed using an IAM user instead of the root account, following the principle of least privilege, Root Account Used Only Once.
+- No credentials hard-coded in servers or code.
+
 
