@@ -5,6 +5,9 @@
 Build an end‑to‑end AWS architecture that mirrors actual enterprise environments.
 
 
+
+
+
 ## 🏗️ Key Architecture Principles
 
 - High Availability → Multi-AZ deployment ensures the application remains accessible during AZ failures
@@ -17,6 +20,10 @@ Build an end‑to‑end AWS architecture that mirrors actual enterprise environm
 - Production Readiness → Designed with real-world failure scenarios in mind
 - Fault Tolerance → Load balancer routes traffic only to healthy instances
 
+
+
+
+
 ## Architecture Overview
 
     User
@@ -28,7 +35,9 @@ Build an end‑to‑end AWS architecture that mirrors actual enterprise environm
     Apache + PHP Application
      ↓
     Amazon RDS (MySQL)
-
+    
+    
+    
 
 ## Repository Structure
 
@@ -60,6 +69,8 @@ Build an end‑to‑end AWS architecture that mirrors actual enterprise environm
     │
     └── testing/
       └── end-to-end-testing.md
+
+
 
 ## Author
 
